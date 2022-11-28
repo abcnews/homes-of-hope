@@ -1,0 +1,26 @@
+{
+  "name": "homes-of-hope",
+  "version": "1.0.0-pre",
+  "description": "Small tweaks for the 'Homes of Hope' Odyssey.",
+  "license": "MIT",
+  "private": true,
+  "contributors": [
+    "Colin Gourlay <colin@colin-gourlay.com>"
+  ],
+  "aunty": {
+    "type": "basic",
+    "build": {
+      "useCSSModules": false
+    }
+  },
+  "scripts": {
+    "start": "aunty serve",
+    "dev": "aunty serve",
+    "test": "aunty test"
+  },
+  "devDependencies": {
+    "@abcnews/aunty": "^13.1.2",
+    "@types/jest": "^29.2.3",
+    "@types/webpack-env": "^1.18.0"
+  }
+}

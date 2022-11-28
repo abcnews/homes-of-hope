@@ -1,0 +1,26 @@
+:root {
+  --hoh-byline-margin: -0.75rem;
+}
+
+@media (min-width: 700px) {
+  :root {
+    --hoh-byline-margin: -2rem;
+  }
+}
+
+@media (min-width: 980px) {
+  :root {
+    --hoh-byline-margin: -2.75rem;
+  }
+}
+
+.Main > h2 + p {
+  margin-top: var(--hoh-byline-margin);
+  font-family: ABCSans;
+  font-size: 0.9375rem;
+  text-align: center;
+}
+
+.Block[data-custompan] p {
+  text-align: center;
+}
