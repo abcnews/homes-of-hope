@@ -22,5 +22,7 @@
 }
 
 .Block[data-custompan] p {
+  font-size: clamp(1.2rem, 3vw, 1.625rem);
+  font-weight: bold;
   text-align: center;
 }
