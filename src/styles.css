@@ -16,13 +16,16 @@
 
 .Main > h2 + p {
   margin-top: var(--hoh-byline-margin);
-  font-family: ABCSans;
+  font-family: ABCSans, sans-serif;
   font-size: 0.9375rem;
   text-align: center;
 }
 
-.Block[data-custompan] p {
-  font-size: clamp(1.2rem, 3vw, 1.625rem);
+.Block[data-custompan] > .Block-content.u-richtext > * {
+  background-color: rgba(255, 255, 255, 0.8) !important;
+  color: #000;
+  font-size: clamp(1.2rem, 3vw, 1.55rem) !important;
   font-weight: bold;
+  line-height: 1.3 !important;
   text-align: center;
 }
